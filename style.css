@@ -1,0 +1,39 @@
+.navbar {
+  --bs-navbar-padding-x: 0.5rem;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-toggler-font-size: 1.5rem;
+  --bs-navbar-brand-font-size: 1.5rem;
+  font-size: large;
+}
+
+.nav-margin {
+  margin-right: 8rem !important;
+  margin-left: 8rem !important;
+}
+
+.nav-color {
+  --bs-bg-opacity: 1;
+  background-color: white !important;
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+    text-decoration: underline;
+    color: orange;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.section-1-header {
+    font-size: 120px;
+}
+
+.underline {
+    text-decoration: underline;
+    color: orange;
+}
